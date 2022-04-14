@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Debug:war">
+    <output-path>$PROJECT_DIR$/Debug/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Debug</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Debug.war">
+      <element id="artifact" artifact-name="Debug:war exploded" />
+    </root>
+  </artifact>
+</component>
